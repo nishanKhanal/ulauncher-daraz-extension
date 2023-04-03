@@ -6,7 +6,7 @@ from ulauncher.api.shared.action.RenderResultListAction import RenderResultListA
 from ulauncher.api.shared.action.HideWindowAction import HideWindowAction
 
 
-class DemoExtension(Extension):
+class DarazExtension(Extension):
 
     def __init__(self):
         super().__init__()
@@ -20,10 +20,10 @@ class KeywordQueryEventListener(EventListener):
         for i in range(5):
             items.append(ExtensionResultItem(icon='images/icon.png',
                                              name='Item %s' % i,
-                                             description='Item description %s' % i,
+                                             description='Item description %s' % i+5,
                                              on_enter=HideWindowAction()))
 
         return RenderResultListAction(items)
 
 if __name__ == '__main__':
-    DemoExtension().run()
+    DarazExtension().run()

@@ -2,18 +2,18 @@
     "required_api_version": "2",
     "name": "Daraz extension",
     "description": "Extension Description",
-    "developer_name": "John Doe",
+    "developer_name": "Nishan Khanal",
     "icon": "images/icon.png",
     "options": {
-      "query_debounce": 1
+      "query_debounce": 0.1
     },
     "preferences": [
       {
-        "id": "demo_kw",
+        "id": "daraz_kw",
         "type": "keyword",
-        "name": "Demo",
-        "description": "Demo extension",
-        "default_value": "dm"
+        "name": "Daraz",
+        "description": "Daraz extension",
+        "default_value": "dz"
       }
     ]
   }
