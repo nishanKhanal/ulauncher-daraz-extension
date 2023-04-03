@@ -1,6 +1,6 @@
 {
     "required_api_version": "2",
-    "name": "New extension",
+    "name": "Daraz extension",
     "description": "Extension Description",
     "developer_name": "John Doe",
     "icon": "images/icon.png",
